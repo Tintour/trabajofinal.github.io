@@ -179,7 +179,7 @@ h1 {
   }
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 750px) {
     h1 {
       font-family: 'Roboto', sans-serif;
       width: 60%;
@@ -196,3 +196,5 @@ h1 {
       flex-direction: column;
   }
   }
+
+  
