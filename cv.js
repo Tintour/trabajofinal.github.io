@@ -4,11 +4,6 @@ function showdata(value){
     document.getElementById("demo").innerHTML = value
 };
 
-var words = ['Mel', 'Mel Gibson', 'Mel Collumcile', 'Mel Gerard', 'Mel Collumcile Gerard Gibson'],
-    wordWrapper = document.getElementById('word'),
-    wordWrapperContent = wordWrapper.innerHTML,
-    addingWord = false,
-    counter = 1;
 
 setInterval(function(){
 

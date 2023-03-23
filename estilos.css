@@ -15,60 +15,36 @@ body {
 
 p {
     color: rgb(86, 101, 115);
-    width: 300px;
+    width: 80%;
+  
     
 }
 
 h1 {
 
     font-family: 'Roboto', sans-serif;
-    width: 30%;
-    border: 10px solid rgb(255, 251, 0);
+    width: 27%;
+    border: 10px solid rgb(236, 114, 15, 0.685);
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    color: rgb(241, 237, 2);
+    color: rgb(236, 114, 15, 0.685);
     font-size: 40px;
     letter-spacing: 10px;
     
 }
 
-.word {
-    font-family: 'Roboto';
-    padding: 0 14px 0 7px;
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-  }
 
-  .word:before {
-    content: '';
-    background-color: #4A4A4A;
-    width: 1px;
-    position: absolute;
-    top: 5px;
-    bottom: 5px;
-    right: 7px;
-    animation: blinkNaim 500ms linear infinite;
-  }
-
-  @keyframes blinkAnim {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
 
 .btn-group {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .container-general {
@@ -118,27 +94,24 @@ h1 {
   #demo {
     text-align: center;
     font-family:  'Roboto';
-    animation: fade 2s infinite;
-    -webkit-animation: fade 2s infinite;
-    -moz-animation: fade 2s infinite;
-    -o-animation: fade 2s infinite;
-    -ms-animation: fade 2s infinite;
-
+    animation: fade 15s infinite;
+    -webkit-animation: fade 15s infinite;
+    -moz-animation: fade 15s infinite;
+    -o-animation: fade 15s infinite;
+    -ms-animation: fade 15s infinite;
+    white-space: pre-line;
   }
 
   #name1 {
     text-align: center;
     font-family:  'Roboto';
     font-size: 30px;
-    color: rgba(236, 114, 15, 0.685);
+    color: #4caf4fab;
+    margin-top: 10px;
   }
 
   .name2 {
     font-family: 'Roboto';
-    padding: 0 14px 0 7px;
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
     text-align: center;
     font-size: 40px;
     color: rgba(236, 114, 15, 0.685);
@@ -166,6 +139,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: pre-wrap;
   
   }
 
@@ -197,4 +171,10 @@ h1 {
   }
   }
 
-  
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
